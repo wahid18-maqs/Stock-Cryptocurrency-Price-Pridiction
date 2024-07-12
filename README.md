@@ -1,7 +1,8 @@
 # Stock and Cryptocurrency Price Pridiction Web app
 
 ## Overview
-The core of the project is an LSTM (Long Short-Term Memory) neural network model, which is trained on past price data to make future price predictions. A Flask web application is built to allow users to input a stock or cryptocurrency symbol and a date range, and then see the predicted versus actual prices.
+
+This project is designed to predict stock and cryptocurrency prices based on historical data. It uses a type of neural network called LSTM (Long Short-Term Memory) to learn from past prices and make future predictions. A web application built with Flask lets users enter a stock or cryptocurrency symbol and a date range to see the predicted and actual prices, calculated after analyzing the past 10 days of data
 
 ## Screenshots
 
@@ -28,16 +29,22 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 ## Technologies Used
 **1.Python:** 
      Main programming language.
+     
 **2.Jupyter Notebook:** 
      For developing and training the machine learning model.
-**3.Flask:** 
+     
+**3.Flask:**
      Web framework for the web application.
+     
 **4.yfinance:** 
      Library to fetch historical stock data.
+     
 **5.Keras & TensorFlow:** 
      Libraries for building and training the LSTM model.
-**6.Matplotlib & Seaborn:** 
+     
+**6.Matplotlib & Seaborn:**
      Libraries for plotting and visualizations.
+     
 **7.HTML & CSS:** 
      For the front-end interface. 
 
@@ -63,7 +70,10 @@ pip install -r requirements.txt
 
 **2.Web Application:**
     Use the Flask web application to input stock symbols and date ranges, and view the predicted vs actual prices.
-
+    
+ *Note:*
+      This project is for educational purposes only and should not be used for real-life investment decisions.
+      
 ## Contribution
 Follow the standard guidelines for contributions and open issues for feature requests or bug reports.
 Feel free to reach out for any questions or suggestions regarding this project.
