@@ -18,6 +18,7 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 
 3.Stock Data: Detailed view of the stock data in a scrollable table.
 
+![google_colab](https://github.com/user-attachments/assets/27aef3a4-2bb1-4670-b4e0-31537d370d60)
 
 
 4.Flowchart.
