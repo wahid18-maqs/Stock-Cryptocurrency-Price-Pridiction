@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-##Usage
+## Usage
 
 **1.Training the Model:**
      Run the Jupyter Notebook to train the LSTM model on historical stock data. Save the model architecture, weights, and scaler for later use in the web application.
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 **2.Web Application:**
     Use the Flask web application to input stock symbols and date ranges, and view the predicted vs actual prices.
 
-##Contribution
+## Contribution
   1.Fork the repository.
   2.Create a new branch (git checkout -b feature-branch).
   3.Commit your changes (git commit -m 'Add new feature').
