@@ -13,7 +13,8 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 
 2.Prediction Result: Display of predicted vs actual prices along with the stock data.
 
-          
+![Dashboard](https://github.com/user-attachments/assets/afe3ead4-2fec-43ca-b663-edc82b1bac6f)
+
 
 3.Stock Data: Detailed view of the stock data in a scrollable table.
 
