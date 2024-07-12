@@ -26,6 +26,13 @@ This project is designed to predict stock and cryptocurrency prices based on his
 
 ![Flowchart](https://github.com/user-attachments/assets/d69fbfd4-601e-451a-867a-de7783a2d540)
 
+## Features
+
+- Predicts stock and cryptocurrency prices using an LSTM neural network model.
+- Interactive web interface to input stock symbols and date ranges.
+- Visual representation of predicted vs actual prices.
+- Displays detailed stock data in a tabular format.
+
 ## Technologies Used
 **1.Python:** 
      Main programming language.
@@ -47,7 +54,18 @@ This project is designed to predict stock and cryptocurrency prices based on his
      
 **7.HTML & CSS:** 
      For the front-end interface. 
-
+     
+##Requirements
+- Python 3.x
+- Flask
+- Jupyter Notebook
+- yfinance
+- Keras & TensorFlow
+- scikit-learn
+- Matplotlib
+- Seaborn
+- joblib
+  
 ## Setup Instructions
 1. **Clone the Repository:**
 ```bash
