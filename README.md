@@ -12,7 +12,7 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 3.Stock Data: Detailed view of the stock data in a scrollable table.
 
 ## Technologies Used
-**Python:** Main programming language.
+**1.Python:** Main programming language.
 Jupyter Notebook: For developing and training the machine learning model.
 Flask: Web framework for the web application.
 yfinance: Library to fetch historical stock data.
