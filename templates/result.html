@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock & Cryptocurrency Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock & Cryptocurrency Prediction</h1>
+
+    <!-- Input Form -->
+    <div class="form-container">
+        <form method="POST">
+            <label for="stock">Enter the Stock or Cryptocurrency Symbol:</label>
+            <input type="text" id="stock" name="stock" required>
+            <label for="start">Start Date:</label>
+            <input type="date" id="start" name="start" required>
+            <label for="end">End Date:</label>
+            <input type="date" id="end" name="end" required>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+
+    <!-- Result Section -->
+    {% if stock %}
+    <div class="container">
+        <div class="column">
+            <h2>Stock Symbol: {{ stock }}</h2>
+            <h3>Stock Price</h3>
+            <div class="scrollable">
+                {{ stock_price_html | safe }}
+            </div>
+        </div>
+        <div class="column">
+            <h3>Predicted vs Actual Price</h3>
+            <img src="data:image/png;base64,{{ plot_data }}" alt="Predicted Price Plot">
+        </div>
+        <div class="column">
+            <h3>Stock Data</h3>
+            <div class="scrollable">
+                {{ stock_data_html | safe }}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</body>
+</html>

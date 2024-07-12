@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+body {
+    background-color: #032B44; /* Dark navy blue background */
+    color: #ffffff; /* White text */
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-y: auto; /* Enable vertical scroll for whole page */
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* White text */
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    text-align: center; /* Center align the title */
+}
+
+.form-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    background-color: #021331; /* Darker navy blue for the form */
+    padding: 20px;
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 5px;
+}
+
+label {
+    margin-right: 10px;
+    color: #ffffff; /* White text */
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 5px;
+    background-color: #021331; /* Darker navy blue for input fields */
+    color: #ffffff; /* White text */
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 5px;
+    background-color: #ffffff; /* White button background */
+    color: #032B44; /* Dark navy blue text on button */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #021331; /* Darker navy blue on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px; /* Add padding to create space around columns */
+    box-sizing: border-box; /* Ensure padding doesn't increase container size */
+}
+
+.column {
+    padding: 20px;
+    background-color: #021331; /* Darker navy blue for column */
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Specific column heights and widths with horizontal scroll */
+.column:nth-child(1) {
+    width: 20%; /* Width for the first column */
+    height: 525px; /* Adjust the height value as needed */
+    overflow: auto; /* Add both vertical and horizontal scrollbar if the content exceeds the height or width */
+}
+
+.column:nth-child(2) {
+    width: 90%; /* Width for the second column */
+    height: 500px; /* Adjust the height value as needed */
+    overflow: auto; /* Add both vertical and horizontal scrollbar if the content exceeds the height or width */
+}
+
+.column:nth-child(3) {
+    width: 30%; /* Width for the third column */
+    height: 525px; /* Adjust the height value as needed */
+    overflow: auto; /* Add both vertical and horizontal scrollbar if the content exceeds the height or width */
+}
+
+.scrollable {
+    max-height: 100vh; /* Use full viewport height for scrollable area */
+    max-width: 100%; /* Set the maximum width */
+    overflow: auto; /* Enable both vertical and horizontal scroll */
+}
+
+.scrollable-text {
+    width: 100%; /* Adjust width as needed */
+    float: left; /* Float left to align columns */
+    margin-right: 2%; /* Margin between columns */
+    height: 100px; /* Adjust height as needed */
+    overflow: auto; /* Enable both vertical and horizontal scroll */
+}
