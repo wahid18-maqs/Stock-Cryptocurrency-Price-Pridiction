@@ -44,11 +44,11 @@ pip install -r requirements.txt
     Use the Flask web application to input stock symbols and date ranges, and view the predicted vs actual prices.
 
 ## Contribution
-  1.Fork the repository.
-  2.Create a new branch (git checkout -b feature-branch).
-  3.Commit your changes (git commit -m 'Add new feature').
-  4.Push to the branch (git push origin feature-branch).
-  5.Open the pull request.
+     1.
+     2.
+     3.
+     4
+     5.
 
 Feel free to reach out for any questions or suggestions regarding this project.
   
