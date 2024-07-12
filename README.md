@@ -11,7 +11,7 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 
 3.Stock Data: Detailed view of the stock data in a scrollable table.
 
-4. Flowchart.
+4.Flowchart.
 
 ## Technologies Used
 **1.Python:** Main programming language.
