@@ -26,11 +26,11 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
    https://github.com/wahid18-maqs/Stock-Cryptocurrency-Price-Pridiction.git
 ```
 2. **Install Dependencies:**
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 ```
 3. **Install dependendencies:**
    ```bash
-python app.py
-   ```
+   python app.py
+ ```
 
