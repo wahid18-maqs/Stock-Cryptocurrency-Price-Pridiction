@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is designed to predict stock and cryptocurrency prices based on historical data. It uses a type of neural network called LSTM (Long Short-Term Memory) to learn from past prices and make future predictions. A web application built with Flask lets users enter a stock or cryptocurrency symbol and a date range to see the predicted and actual prices, calculated after analyzing the past 10 days of data
+This project predicts stock and cryptocurrency prices using historical data with an LSTM neural network built with TensorFlow and Keras. Data preprocessing is done with scikit-learn to improve model performance. A Flask web application allows users to input a stock symbol and date range to see predicted and actual prices, based on the past 10 days of data. BytesIO and base64 are used to handle and display matplotlib plots on the web page.
 
 ## Screenshots
 
@@ -55,6 +55,9 @@ This project is designed to predict stock and cryptocurrency prices based on his
 **7.HTML & CSS:** 
      For the front-end interface. 
      
+ **8.BytesIO & base64:** 
+     For handling image data and encoding plots.    
+     
 ## Requirements
 - Python 3.x
 - Flask
@@ -65,6 +68,8 @@ This project is designed to predict stock and cryptocurrency prices based on his
 - Matplotlib
 - Seaborn
 - joblib
+- BytesIO
+- base64
   
 ## Setup Instructions
 1. **Clone the Repository:**
