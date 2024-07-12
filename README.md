@@ -63,6 +63,10 @@ pip install -r requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
+
+4. **Web Interface:**
+   *Open your web browser and go to http://127.0.0.1:5000/.
+   
 ## Usage
 
 **1.Training the Model:**
