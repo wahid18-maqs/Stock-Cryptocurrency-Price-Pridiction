@@ -6,7 +6,7 @@ This project is designed to predict stock and cryptocurrency prices based on his
 
 ## Screenshots
 
-1.Home Page: The main interface where users can input the stock symbol and date range.
+**1.Home Page:** The main interface where users can input the stock symbol and date range.
 
 
 ![screenshot_2](https://github.com/user-attachments/assets/1dff70f6-5e52-4e07-b97a-7262027699ef)
