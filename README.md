@@ -23,7 +23,7 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 
 4.Flowchart.
 
-          
+![Flowchart](https://github.com/user-attachments/assets/d69fbfd4-601e-451a-867a-de7783a2d540)
 
 ## Technologies Used
 **1.Python:** Main programming language.
