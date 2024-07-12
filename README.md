@@ -13,10 +13,16 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 
 ## Technologies Used
 **1.Python:** Main programming language.
-Jupyter Notebook: For developing and training the machine learning model.
-Flask: Web framework for the web application.
-yfinance: Library to fetch historical stock data.
-Keras & TensorFlow: Libraries for building and training the LSTM model.
-Matplotlib & Seaborn: Libraries for plotting and visualizations.
-HTML & CSS: For the front-end interface.
+**2.Jupyter Notebook:** For developing and training the machine learning model.
+**3.Flask:** Web framework for the web application.
+**4.yfinance:** Library to fetch historical stock data.
+**5.Keras & TensorFlow:** Libraries for building and training the LSTM model.
+**6.Matplotlib & Seaborn:** Libraries for plotting and visualizations.
+**7.HTML & CSS:** For the front-end interface.
 
+## Setup Instructions
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/confused-soul/JamiaGPT.git
+cd JamiaGPT
+```
