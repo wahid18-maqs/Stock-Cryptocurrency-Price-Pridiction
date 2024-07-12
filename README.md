@@ -18,19 +18,22 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 **4.yfinance:** Library to fetch historical stock data.
 **5.Keras & TensorFlow:** Libraries for building and training the LSTM model.
 **6.Matplotlib & Seaborn:** Libraries for plotting and visualizations.
-**7.HTML & CSS:** For the front-end interface.
+**7.HTML & CSS:** For the front-end interface. 
 
 ## Setup Instructions
 1. **Clone the Repository:**
-   ```bash
-   https://github.com/wahid18-maqs/Stock-Cryptocurrency-Price-Pridiction.git
+```bash
+git clone https://github.com/wahid18-maqs/Stock-Cryptocurrency-Price-Pridiction.git
 ```
+
 2. **Install Dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
+
 3. **Run the Application:**
-   ```bash
-   python app.py
- ```
+```bash
+pip install -r requirements.txt
+```
+
 
