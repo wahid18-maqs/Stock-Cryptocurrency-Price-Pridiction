@@ -65,7 +65,8 @@ pip install -r requirements.txt
 ```
 
 4. **Web Interface:**
-   *Open your web browser and go to http://127.0.0.1:5000/.
+
+          Open your web browser and go to http://127.0.0.1:5000/.
    
 ## Usage
 
