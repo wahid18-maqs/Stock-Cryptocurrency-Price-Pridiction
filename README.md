@@ -44,12 +44,7 @@ pip install -r requirements.txt
     Use the Flask web application to input stock symbols and date ranges, and view the predicted vs actual prices.
 
 ## Contribution
-     1.
-     2.
-     3.
-     4
-     5.
-
+Follow the standard guidelines for contributions and open issues for feature requests or bug reports.
 Feel free to reach out for any questions or suggestions regarding this project.
   
 
