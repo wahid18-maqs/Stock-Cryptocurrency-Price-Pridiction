@@ -12,17 +12,17 @@ This project is designed to predict stock and cryptocurrency prices based on his
 ![screenshot_2](https://github.com/user-attachments/assets/1dff70f6-5e52-4e07-b97a-7262027699ef)
 
 
-2.Prediction Result: Display of predicted vs actual prices along with the stock data.
+**2.Prediction Result:** Display of predicted vs actual prices along with the stock data.
 
 ![Dashboard](https://github.com/user-attachments/assets/afe3ead4-2fec-43ca-b663-edc82b1bac6f)
 
 
-3.Stock Data: Detailed view of the stock data in a scrollable table.
+**3.Stock Data:** Detailed view of the stock data in a scrollable table.
 
 ![google_colab](https://github.com/user-attachments/assets/27aef3a4-2bb1-4670-b4e0-31537d370d60)
 
 
-4.Flowchart.
+**4.Flowchart.**
 
 ![Flowchart](https://github.com/user-attachments/assets/d69fbfd4-601e-451a-867a-de7783a2d540)
 
@@ -66,11 +66,11 @@ pip install -r requirements.txt
 
 4. **Web Interface:**
 
-   Open your web browser and go to http://127.0.0.1:5000/.
+   -Open your web browser and go to http://127.0.0.1:5000/.
    
-   Enter the stock or cryptocurrency symbol and the date range
+   -Enter the stock or cryptocurrency symbol and the date range
    
-   Click "Predict" to see the results.
+   -Click "Predict" to see the results.
    
 ## Usage
 
