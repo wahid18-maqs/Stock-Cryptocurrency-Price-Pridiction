@@ -55,7 +55,7 @@ This project is designed to predict stock and cryptocurrency prices based on his
 **7.HTML & CSS:** 
      For the front-end interface. 
      
-##Requirements
+## Requirements
 - Python 3.x
 - Flask
 - Jupyter Notebook
