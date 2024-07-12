@@ -26,13 +26,20 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 ![Flowchart](https://github.com/user-attachments/assets/d69fbfd4-601e-451a-867a-de7783a2d540)
 
 ## Technologies Used
-**1.Python:** Main programming language.
-**2.Jupyter Notebook:** For developing and training the machine learning model.
-**3.Flask:** Web framework for the web application.
-**4.yfinance:** Library to fetch historical stock data.
-**5.Keras & TensorFlow:** Libraries for building and training the LSTM model.
-**6.Matplotlib & Seaborn:** Libraries for plotting and visualizations.
-**7.HTML & CSS:** For the front-end interface. 
+**1.Python:** 
+     Main programming language.
+**2.Jupyter Notebook:** 
+     For developing and training the machine learning model.
+**3.Flask:** 
+     Web framework for the web application.
+**4.yfinance:** 
+     Library to fetch historical stock data.
+**5.Keras & TensorFlow:** 
+     Libraries for building and training the LSTM model.
+**6.Matplotlib & Seaborn:** 
+     Libraries for plotting and visualizations.
+**7.HTML & CSS:** 
+     For the front-end interface. 
 
 ## Setup Instructions
 1. **Clone the Repository:**
