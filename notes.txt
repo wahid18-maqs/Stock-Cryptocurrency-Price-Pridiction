@@ -1,0 +1,17 @@
+1.TensorFlow and Keras:
+
+Purpose: These libraries are used for building and training the LSTM neural network model.
+TensorFlow: It's an open-source platform for machine learning, widely used for building neural networks.
+Keras: It's a high-level neural networks API, written in Python, and capable of running on top of TensorFlow.
+
+
+2.scikit-learn (sklearn):
+
+Purpose: This library is used for data preprocessing tasks, such as scaling the data before feeding it into the neural network.
+MinMaxScaler: A tool from sklearn to scale the input data to a range between 0 and 1, which helps in improving the model's performance.
+
+3.BytesIO and base64:
+
+Purpose: These modules are used for handling and encoding image data. Specifically, they are used to convert the matplotlib plots into a format that can be displayed on the web page.
+BytesIO: A module that allows you to create an in-memory binary stream. It is used here to temporarily hold the image data before encoding.
+base64: A module that provides functions to encode binary data into base64, which is a text representation of the binary data. This encoded data can be embedded directly into HTML for display in the web application.
