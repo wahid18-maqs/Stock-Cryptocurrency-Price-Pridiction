@@ -8,7 +8,7 @@ The core of the project is an LSTM (Long Short-Term Memory) neural network model
 1.Home Page: The main interface where users can input the stock symbol and date range.
 
 
-          ![screenshot_2](https://github.com/user-attachments/assets/1dff70f6-5e52-4e07-b97a-7262027699ef)
+![screenshot_2](https://github.com/user-attachments/assets/1dff70f6-5e52-4e07-b97a-7262027699ef)
 
 
 2.Prediction Result: Display of predicted vs actual prices along with the stock data.
